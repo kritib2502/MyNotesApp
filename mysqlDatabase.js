@@ -4,11 +4,11 @@ dotenv.config()
 
 const pool = mysql
   .createPool({
-    host: process.env.MYSQLHOST,
-    user: process.env.MYSQLUSER,
-    password: process.env.MYSQLPASSWORD,
-    database: process.env.MYSQLDATABASE,
-    port: process.env.MYSQLPORT || 3306,
+    host: 'containers-us-west-112.railway.app',
+    user: 'root',
+    password: 'pnDA6kGpqPPRMXPHXU3Z',
+    database: 'railway',
+    port: '6854',
   })
   .promise()
 
