@@ -1,0 +1,3 @@
+INSERT INTO notes(title, contents)
+VALUES ("Note 1", "Village people walrus villain cappuccino catcher Freddie mercury will you do the fandango mouth coiffure, Freddie mercury walrus Droopy will you do the fandango erudite headmaster villain derek griffiths mouth coiffure village people glorious facial hair cappuccino collector cappuccino catcher? Mr frothy-top worn with distinction albert einstein boxing champion."),
+("Note 2", "What a bounder mexican’t charity donate leader of men charity donate id ron jeremy, sterling charming villain derek griffiths what a bounder bad guy leader of men id ron jeremy charity donate colonel mustard mexican’t tudor philosopher charity donate bruce forsyth.");

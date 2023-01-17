@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+        <div class="note-container">
+        <h1>Note Detail</h1>
+        <h3><%=`${note.title}`%></h3>
+        <p><%=`${note.contents}`%></p>
+        <p>Created: <%=`${note.created}`%></p>
+        <form action="/" method="GET"> 
+            <button class="back-button" type="submit" value="Submit"> << Go back</button>
+        </form>
+        </div>
+</body>
